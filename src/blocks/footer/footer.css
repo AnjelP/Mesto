@@ -1,0 +1,25 @@
+.footer {
+    max-width: 880px;
+    padding-top: 66px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:935px) {
+    .footer {
+      width: 68.75%;
+    }
+  }
+  
+  @media screen and (max-width: 872px) {
+    .footer {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .footer {
+      width: 88.125%;
+    }
+  }
+  
+
