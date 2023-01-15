@@ -1,0 +1,11 @@
+.element {
+    width: 282px;
+    display: grid;
+    grid-template-rows: 1fr 80px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
