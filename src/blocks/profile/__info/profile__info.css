@@ -1,0 +1,15 @@
+.profile__info {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: minmax(min-content, max-content) min-content;
+  grid-template-rows: repeat(2, min-content);
+  gap: 18px 16px;
+}
+
+@media screen and (max-width: 667px) {
+  .profile__info {
+    justify-items: center;
+    padding: 26px 0 36px;
+    gap: 14px 0;
+  }
+}
